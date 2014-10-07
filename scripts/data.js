@@ -1,7 +1,7 @@
 $(document.body).hide();
 
 $(window).load(function() {
-    $(document.body).fadeIn(1000, function() {
+    $(document.body).fadeIn(1500, function() {
     // Animation complete
     });
 });
