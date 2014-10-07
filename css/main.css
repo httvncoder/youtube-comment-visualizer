@@ -1,6 +1,8 @@
 /* Stylesheet for YouTube Comment Visualizer 
  *
  * Author: William Xie
+ *
+ * NOTE: Due to time constraints there is bad practice (not following DRY, etc) in this css file
  */
 
 html {

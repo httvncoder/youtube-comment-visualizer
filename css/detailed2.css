@@ -1,0 +1,26 @@
+/* Stylesheet for detailed analysis pages
+ * bieber.html, bass.html, love.html, go.html 
+ * 
+ * Author: William Xie 
+ * 
+ * NOTE: Due to time constraints there is bad practice (not following DRY, etc) in this css file
+ */
+
+html {
+	background: rgb(89, 60, 104);
+	font-family: 'Open Sans', sans-serif;
+	height: 100%;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	height: 100%;
+}
+
+p {
+	margin: 0;
+	padding: 0;
+}
+
+/* ----------------------- */
