@@ -1,13 +1,5 @@
-song	number
-LP	80
-LNeu	82
-LNe 	38
-AP	132
-ANeu	43
-AN	25
-AllP	78
-AllNeu	29
-AllN 	99
-BP	28
-BNeu	44
-BN	128
+state, positive, neutral, negative
+Baby, 28, 44, 128
+Let It Go, 89, 82, 38
+As Long As You Love Me, 132, 43, 25
+All Bout That Bass, 78, 29, 99
