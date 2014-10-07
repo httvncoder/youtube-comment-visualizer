@@ -197,10 +197,10 @@ p {
 	font-weight: bold;
 }
 .positive {
-	margin-right: 115px;
+	margin-left: 115px;
 	display: inline-block;
 }
 .negative {
-	margin-left: 115px;
+	margin-right: 115px;
 	display: inline-block;
 }
