@@ -68,6 +68,32 @@
 	</body>
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 	<script src="http://cdnjs.cloudflare.com/ajax/libs/d3/3.4.11/d3.min.js"></script>
+	<style>
+
+		.bar {
+  			fill: steelblue;
+		}
+
+		.bar:hover {
+  			fill: brown;
+		}
+
+		.axis {
+  			font: 10px sans-serif;
+		}
+
+		.axis path,
+		.axis line {
+  		fill: none;
+  		stroke: #000;
+  			shape-rendering: crispEdges;
+		}
+
+		.x.axis path {
+  			display: none;
+		}
+
+</style>
 	<script>
 
 		var margin = {top: 100, right: 30, bottom: 5, left: 70},
