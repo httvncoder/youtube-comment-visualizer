@@ -1,7 +1,23 @@
 /* bieber.js */
 
 var data = {
-    labels: ["January", "February", "March", "April", "May", "June", "July"],
+    labels: ["Dislikes", "Gay", "Hate", "Fuck", "Shit"],
+    datasets: [
+        {
+            label: "My First dataset",
+            fillColor: "rgba(151,187,205,0.2)",
+            strokeColor: "rgba(151,187,205,1)",
+            pointColor: "rgba(151,187,205,1)",
+            pointStrokeColor: "#fff",
+            pointHighlightFill: "#fff",
+            pointHighlightStroke: "rgba(151,187,205,1)",
+            data: [141, 115, 97, 95, 64]
+        }
+    ]
+};
+
+var data2 = {
+    labels: ["Like", "Love", "Likes", "Good", "Wow"],
     datasets: [
         {
             label: "My Second dataset",
@@ -11,7 +27,7 @@ var data = {
             pointStrokeColor: "#fff",
             pointHighlightFill: "#fff",
             pointHighlightStroke: "rgba(151,187,205,1)",
-            data: [28, 48, 40, 19, 86, 27, 90]
+            data: [194, 122, 56, 47, 30]
         }
     ]
 };
@@ -62,4 +78,6 @@ var options =
 
 
 var ctx = document.getElementById("myChart").getContext("2d");
+var ctx2 = document.getElementById("myChart2").getContext("2d");
 var myLineChart = new Chart(ctx).Line(data, options);
+var myLineChart2 = new Chart(ctx2).Line(data2, options);
