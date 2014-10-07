@@ -10,6 +10,11 @@ body {
 	height: 100%;
 }
 
+p {
+	padding: 0;
+	margin: 0;
+}
+
 .cards {
 	padding-top: 1%;
 	width: 100%;
@@ -28,7 +33,6 @@ body {
 	width: 36%;
 	height: 100%;
 	background: white;
-	border: 1px solid #111;
 	cursor: pointer;
 }
 .card:hover {
@@ -40,7 +44,7 @@ body {
 .picture-container {
 	float: left;
 	height: 100%;
-	width: 60%;
+	width: 57%;
 }
 .picture {
 	float: left;
@@ -49,14 +53,14 @@ body {
 }
 .picture-info {
 	float: right;
-	width: 40%;
+	width: 43%;
 	height: 95%;
 	text-align: center;
 }
 .color {
 	float: right;
-	height: 5%;
-	width: 40%;
+	height: 6%;
+	width: 43%;
 }
 .bieber {
 	background: rgb(254, 218, 36);
@@ -71,15 +75,28 @@ body {
 	background: rgb(116, 205, 211);
 }
 .picture-title {
-	padding-top: 27%;
+	margin-top: 18%;
+	margin-left: 8.8%;
+	margin-bottom: 12%;
 	color: rgba(89, 60, 104, 1);
 	font-size: 18px;
 	font-weight: 700;
+	text-align: left;
+}
+.twolines {
+	margin-bottom: 0.67%;
 }
 .picture-artist {
-	padding-top: 5px;
+	margin-right: 8.8%;
 	color: rgba(89, 60, 104, 1);
 	font-size: 13px;
 	font-weight: 400;
+	text-align: right;
 	text-transform: uppercase;
+}
+.picture-extra {
+	margin-left: 8.8%;
+	color: rgba(89, 60, 104, 1);
+	font-size: 7px;
+	text-align: left;
 }
