@@ -180,3 +180,27 @@ p {
 	width: 22%;
 	height: 100%;
 }
+
+#myChart1 {
+	padding-right: 40px;
+}
+
+#myChart2 {
+	padding-left: 40px;
+}
+
+.labels {
+	margin-bottom: 100px;
+	text-align: center;
+	color: white;
+	font-size: 20px;
+	font-weight: bold;
+}
+.positive {
+	margin-right: 115px;
+	display: inline-block;
+}
+.negative {
+	margin-left: 115px;
+	display: inline-block;
+}
