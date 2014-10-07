@@ -37,7 +37,7 @@ var y = d3.scale.linear()
     .range([height, 0]);
 
 var color = d3.scale.ordinal()
-    .range(["#FEDA1A", "#CF5CD3", "#74CDD3", "#87EB33"]);
+    .range(["#FEDA1A", "#87EB33", "#CF5CD3", "#74CDD3"]);
 
 var xAxis = d3.svg.axis()
     .scale(x0)
@@ -88,7 +88,7 @@ d3.csv("data.csv", function(error, data) {
 
   song.selectAll("rect")
       .data(function(d) { return d.ages; })
-    .enter().append("rect")
+      .enter().append("rect")
       .attr("width", 30)
       .attr("x", function(d) { return x1(d.name); })
       .attr("y", function(d) { return y(d.value); })
