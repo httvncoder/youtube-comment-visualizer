@@ -1,7 +1,6 @@
-/* bieber.js */
 
 var data = {
-    labels: ["Dislikes", "Gay", "Hate", "Fuck", "Shit"],
+    labels: ["Hate", "Fat", "Haters", "Shit", "Fuck"],
     datasets: [
         {
             label: "My First dataset",
@@ -11,13 +10,13 @@ var data = {
             pointStrokeColor: "#fff",
             pointHighlightFill: "#fff",
             pointHighlightStroke: "rgba(151,187,205,1)",
-            data: [141, 115, 97, 95, 64]
+            data: [27, 23, 19, 16, 14]
         }
     ]
 };
 
 var data2 = {
-    labels: ["Like", "Love", "Likes", "Good", "Wow"],
+    labels: ["Love", "Like", "Better", "Good", "Amazing"],
     datasets: [
         {
             label: "My Second dataset",
@@ -27,7 +26,7 @@ var data2 = {
             pointStrokeColor: "#fff",
             pointHighlightFill: "#fff",
             pointHighlightStroke: "rgba(151,187,205,1)",
-            data: [194, 122, 56, 47, 30]
+            data: [153, 94, 56, 30, 22]
         }
     ]
 };

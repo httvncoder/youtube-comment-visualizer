@@ -20,7 +20,7 @@ $("#aslong").on("click", function() {
 
 
 $("#froz").on("click", function() {
-  window.location = "frozen.html";
+  window.location = "froz.html";
 });
 
 
