@@ -56,6 +56,9 @@ p {
 	font-weight: bold;
 	text-align: left;
 }
+.card-title.long {
+	font-size: 32px;
+}
 .card-artist {
 	padding-right: 10%;
 	font-family: 'Open Sans', sans-serif;
