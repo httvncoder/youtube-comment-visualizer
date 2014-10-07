@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<title>YouTube Comment Visualizer | Baby by Justin Bieber</title>
+		<link href='http://fonts.googleapis.com/css?family=Open+Sans:300,400,700' rel='stylesheet' type='text/css'>
+		<link href='./css/detailed.css' rel="stylesheet">
+	</head>
+	<body>
+		<div class="wrapper">
+			<div class="card-container">
+				<div class="card">
+					<div class="card-info">
+						<div class="card-title">BABY</div>	
+						<div class="card-artist">Justin Bieber</div>
+						<div class="card-info">
+							<p>Album: My World 2.0</p>
+							<p>Released: 2010</p>
+							<p>Awards: Kids' Choice Award for Favorite Song</p>
+							<p>Nominations: People's Choice Award for Favorite Music Video</p>
+						</div>
+						<div class="card-rating">
+							<div class="stars">
+								<img src="./img/star.png">
+								<img src="./img/star.png">
+								<img class="faded" src="./img/star.png">
+								<img class="faded" src="./img/star.png">
+								<img class="faded" src="./img/star.png">
+							</div>
+						</div>
+						<div class="card-readmore">
+							<div class="readmore">READ MORE</div>
+							<img src="./img/ARROW.png">	
+						</div>
+					</div>
+				</div>
+				<div class="card-picture"><img src="./img/bieber.jpg"></div>
+				<div class="card-menu">
+					<div class="card-color"></div>
+					<div class="card-cell title">YOU MAY LIKE</div>
+					<div class="card-cell">Shake It Off</div>
+					<div class="card-cell">Anaconda</div>
+					<div class="card-cell">Black Widow</div>
+					<div class="card-cell">Bang Bang</div>
+					<div class="card-cell">Stay With Me</div>
+					<div class="card-cell">Boom Clap</div>
+				</div>
+			</div>
+			<!--<iframe class="vid" src="http://www.youtube.com/embed/kffacxfA7G4" frameborder="0" allowfullscreen></iframe>-->
+			<div class="visual">
+				<canvas id="myChart" width="400" height="400"> </canvas>
+				<canvas id="myChart2" width="400" height="400"> </canvas>
+			</div>
+		</div>
+	</body>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+	<script src="http://cdnjs.cloudflare.com/ajax/libs/d3/3.4.11/d3.min.js"></script>
+	<script src="https://raw.githubusercontent.com/nnnick/Chart.js/master/Chart.js"></script>
+	<script src="./scripts/bieber.js"></script>
+</html>
