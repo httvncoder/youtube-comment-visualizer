@@ -1,3 +1,22 @@
+$("#bb").on("click", function() {
+  window.location = "bieber.html";
+});
+
+$("#bout").on("click", function() {
+  window.location = "bass.html";
+});
+
+$("#aslong").on("click", function() {
+  window.location = "aslong.html";
+});
+
+
+$("#froz").on("click", function() {
+  window.location = "frozen.html";
+});
+
+
+
 var margin = {top: 70, right: 0, bottom: 20, left: 200},
       width = 850 - margin.left - margin.right,
       height = 400 - margin.top - margin.bottom;

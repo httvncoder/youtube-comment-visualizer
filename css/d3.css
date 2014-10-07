@@ -1,0 +1,30 @@
+body {
+	font: 10px sans-serif;
+}
+
+.axis path,
+.axis line {
+	fill: none;
+	stroke: white;
+	shape-rendering: crispEdges;
+}
+
+.bar {
+		fill: white;
+}
+
+.x.axis path {
+		display: none;
+}
+
+.x.axis text{
+	stroke: white;
+	font-family: sans-serif;
+	font-size: 11px
+}
+
+.y.axis text{
+	stroke: white;
+	font-family: sans-serif;
+	font-size: 11px
+}
