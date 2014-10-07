@@ -1,3 +1,11 @@
+$(document.body).hide();
+
+$(window).load(function() {
+    $(document.body).fadeIn(1000, function() {
+    // Animation complete
+    });
+});
+
 $("#bb").on("click", function() {
   window.location = "bieber.html";
 });
@@ -14,7 +22,6 @@ $("#aslong").on("click", function() {
 $("#froz").on("click", function() {
   window.location = "frozen.html";
 });
-
 
 
 var margin = {top: 70, right: 0, bottom: 20, left: 200},
